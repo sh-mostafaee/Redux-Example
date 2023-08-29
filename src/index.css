@@ -7,3 +7,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.name-list {
+  font-size: x-large;
+  font-weight: 500;
+  margin: 4px;
+}
+.input-search {
+  border: 1px solid black;
+  padding: 15px;
+  margin: 4px;
+  border-radius: 4px;
+}
+.input-search:focus {
+  outline: 0;
+}
+.hide {
+  padding: 20px;
+}
+.error-input {
+  color: red;
+  margin: 0;
+  margin-left: 8px;
+}
+.names-container {
+  margin-top: 24px;
+}

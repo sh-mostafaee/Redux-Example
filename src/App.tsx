@@ -5,6 +5,7 @@ import { Provider, useDispatch, useSelector } from "react-redux";
 import { store } from "./Redux/Store";
 import { toggleIsHello } from "./Redux/modules/toggle";
 import { ToggleRedux } from "./ToggleRedux";
+import { Container } from "./Counter";
 
 function App() {
   const state = useSelector((state: any) => state.toggle);
@@ -31,6 +32,7 @@ function App() {
       <ToggleRedux />
       <ToggleRedux />
       <ToggleRedux />
+      <Container />
     </div>
   );
 }
