@@ -5,9 +5,9 @@ import {
   plusCounter,
   resetCounter,
   setCounter,
-} from "./Redux/modules/Counter";
+} from "../Redux/modules/Counter";
 import { count } from "console";
-import { setInput } from "./Redux/modules/input";
+import { setInput } from "../Redux/modules/input";
 
 export function Container() {
   const state = useSelector((state: any) => state.counter.count);
